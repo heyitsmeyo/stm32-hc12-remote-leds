@@ -3,7 +3,7 @@ a mini-project that combines two stm32 dev boards  and two hc-12 modules built w
 
 One board is a transmitter , the other one acts as a receiver , 
 
-We wanted to control 31 leds with push buttons connected to the transmitter as it should turn on the same pin in the transmitter ( A0 in the input = led connected to A0 should turn on ) 
+We wanted to control 31 leds with push buttons connected to the transmitter as it should turn on the same pin in the receiver ( A0 in the input = led connected to A0 should turn on ) 
 
 We tested the two hc-12 modules in FU4 mode ( maxiumum range possible witht the lowest baud rate  ) but it didn't work out ( loss of data ). 
 
